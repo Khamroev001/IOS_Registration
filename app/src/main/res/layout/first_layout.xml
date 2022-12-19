@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/girl_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Skip"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sf_pro_600"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore Together"
+            android:fontFamily="@font/sf_pro_600"
+            android:textAlignment="center"
+            android:textColor="@color/black80"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/sf_pro_400"
+            android:text="Create an account to run wild through\n our curated experiences."
+            android:textAlignment="center"
+            android:textColor="@color/black80"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="20dp"
+            app:icon="@drawable/google"
+            style="@style/button_style"
+            app:iconTint="@null"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/black"
+            android:text="Continue with Google" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="12dp"
+            style="@style/button_style"
+            android:paddingHorizontal="20dp"
+            app:icon="@drawable/apple"
+            android:text="Continue with Apple"
+            android:textColor="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="12dp"
+            style="@style/button_style"
+            android:paddingHorizontal="20dp"
+            app:icon="@drawable/email"
+            android:text="Continue with Email"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account? "
+                android:textAlignment="center"
+                android:textColor="@color/black80"
+                android:fontFamily="@font/sf_pro_400"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log in."
+                android:textAlignment="center"
+                android:fontFamily="@font/sf_pro_600"
+                android:textColor="@color/black80"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
